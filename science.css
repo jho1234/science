@@ -1,0 +1,223 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+}
+
+section {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #fead59;
+    font-family: 'Baloo Chettan', sans-serif;
+    font-size: 40px;
+}
+
+h2,
+h3 {
+    font-size: 35px;
+}
+
+p {
+    text-align: left;
+    color: 'blue';
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Source Serif Pro', serif;
+    font-size: 28px;
+    text-indent: 10%;
+    background-color: #007a1b83;
+    border: 1px solid black;
+}
+
+nav {
+    background-color: #ffc974;
+    width: 100%;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    color: #ffffff;
+    display: block;
+    padding: 35px;
+    text-decoration: none;
+}
+
+#myList {
+    padding-left: 40px;
+    list-style-type: none;
+}
+
+#myList li {
+    padding-left: 20px;
+    background-image: url("https://image.flaticon.com/icons/svg/45/45332.svg");
+    background-position: 0 0;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+}
+table{
+    margin: 25px;
+    margin-left: 25px;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+th {
+    width: 250px;
+    font-size: 20px;
+    background-color: #ffc974;
+}
+
+footer {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+#hero {
+    background-image: url("https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?cs=srgb&dl=board-bread-breakfast-1600727.jpg&fm=jpg");
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 500px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the  
+    entire container */
+}
+
+#hero-text {
+    font-size: 90px;
+    /* Change font size to make it bigger */
+    height: 350px;
+    /* Set the height this is more for the background*/
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Use a semi-transparent black background to make sure we can see the text */
+    margin: 0px;
+    /* remove extra space around image */
+    padding-top: 150px;
+    /* We want the text to be in the middle so we add some space at the top */
+    width: 100%;
+}
+
+.width-25 {
+    width: 23%;
+    float: left;
+}
+
+.width-75 {
+    width: 73%;
+}
+#align-left{
+    position:absolute;
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+#align-right{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(5, 5, 197);
+}
+#align-right2{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 171.9%;
+    background-color: rgb(5, 5, 197);
+}
+#text-red{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 20%;
+    
+    color:white;
+text-align: center;
+font-family: 'Kanit', sans-serif;
+height: 75px;
+background-color: rgba(44, 44, 44, 0.199);
+font-size: 50px;
+width: 300px;
+}
+#text-blue{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 20%;
+    color:white;
+    background-color: rgba(44, 44, 44, 0.199);
+text-align: center;
+font-family: 'Kanit', sans-serif;
+width: 350px;
+font-size: 50px;
+}
+#plain-align-right{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+#plain-align-left{
+    position:absolute;
+    width: 50%;
+    height: 100%;
+}
+#align-left:hover{
+background-image: url("MAG.jpg");
+}
+#align-right:hover{
+    background-image: url(MaCl.jpeg);
+}
+#align-right:hover{
+    background-image: url(MaCl.jpeg);
+}
+#align-right2:hover{
+    background-image: url(MaCl.jpeg);
+}
+#text-blue:hover{
+    background-color: black;
+}
+#text-red:hover{
+    background-color: black;
+}
+#h4Font{
+    margin-left: 25%;
+    font-family: 'Alfa Slab One', cursive;
+}
+#Mg {
+    position: absolute;
+    right: 0;
+}
+#Mg2 {
+margin-top: 200px;
+    position: absolute;
+    right: 0;
+}
+

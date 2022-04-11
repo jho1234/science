@@ -1,0 +1,24 @@
+.carousel-inner {
+    height: 500px;
+    width: 500px
+}
+
+img {
+    height: -webkit-fill-available;
+    width: 500px;
+}
+
+
+.img-circle {
+    height: 240px;
+    width:  120px;
+}
+
+.div1 {
+width: 33%;
+}
+
+.t {
+    width: 50px;
+    height: 30px;
+}
